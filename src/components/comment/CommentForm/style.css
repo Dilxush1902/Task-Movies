@@ -1,0 +1,23 @@
+form .input_box input,form .textArea_box textarea {
+ width: 100%;
+ background-color: #17171B;
+ outline: none;
+ color: #ffffff;
+ border-radius: 5px;
+ border: 2px solid #ffffff;
+ resize: none;
+ padding: 10px;
+ margin: 5px 0;
+}
+form .input_box  {
+ padding: 20px 0;
+}
+form .textArea_box  {
+ padding: 0 0 20px 0;
+}
+form button {
+ background-color: #885FFB;
+ color: #ffffff;
+ border-radius: 5px;
+ padding: 5px 10px;
+}

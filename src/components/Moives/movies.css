@@ -1,0 +1,29 @@
+.movies_list {
+ display: grid;
+ grid-template-columns: repeat(2,minmax(200px,1fr));
+ grid-gap: 1.5rem;
+}
+.card {
+ overflow: hidden;
+ border-radius: 20px;
+}
+.card img {
+ height: 300px;
+ object-fit: cover !important;
+ transition: transform 0.3s ease;
+}
+.movies_list .card .card-body {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ align-self: center;
+ width: 100%;
+ background-color: rgba(255,255,255,0.01);
+ backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+ border-top-right-radius: 20px;
+ border-top-left-radius: 20px;
+}
+.card:hover img {
+ transform: scale(1.1);
+}
